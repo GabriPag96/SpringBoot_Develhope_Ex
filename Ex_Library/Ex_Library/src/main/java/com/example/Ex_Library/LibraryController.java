@@ -1,9 +1,6 @@
 package com.example.Ex_Library;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,8 +16,8 @@ public class LibraryController {
         return lista.addToList().toString();
     }
 
-    @GetMapping("/libri/id")
-    public String searchForId(@RequestParam int id){
+    @GetMapping("/libri/{id}")
+    public String searchForId(@PathVariable int id){
         for (BookConstructor bookConstructor : lista.addToList()){
             if(bookConstructor.getId() == id){
                 return bookConstructor.toString();
@@ -29,8 +26,8 @@ public class LibraryController {
         return null;
     }
 
-    @GetMapping("/libri/genere")
-    public String searchForGenere(@RequestParam String genere){
+    @GetMapping("/libri/{genere}")
+    public String searchForGenere(@PathVariable String genere){
         List<BookConstructor> listaPerGenere = new ArrayList<>();
         for (BookConstructor bookConstructor : lista.addToList()){
             if (bookConstructor.getGenere().equals(genere)){
