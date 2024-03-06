@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf83a753-306b-4771-a21a-decbc220eddb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Unit_Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit_Test/src/main/java/it/example/Unit_Test/Controller/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit_Test/src/main/java/it/example/Unit_Test/Entity/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit_Test/src/main/java/it/example/Unit_Test/Repository/UsersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit_Test/src/main/java/it/example/Unit_Test/Service/UsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit_Test/src/main/resources/Application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="cf83a753-306b-4771-a21a-decbc220eddb" name="Changes" comment="Ex_12 added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -173,6 +165,28 @@
       <option name="presentableId" value="Default" />
       <updated>1709313849689</updated>
     </task>
+    <task id="LOCAL-00001" summary="UF Ex_12">
+      <option name="closed" value="true" />
+      <created>1709568507735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709568507735</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ex_12 added">
+      <option name="closed" value="true" />
+      <created>1709568531398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709568531398</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UF Ex_12" />
+    <MESSAGE value="Ex_12 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex_12 added" />
   </component>
 </project>
