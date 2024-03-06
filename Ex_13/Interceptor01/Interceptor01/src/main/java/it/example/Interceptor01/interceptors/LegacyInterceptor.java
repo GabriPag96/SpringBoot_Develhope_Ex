@@ -15,10 +15,14 @@ public class LegacyInterceptor implements HandlerInterceptor {
                              Object handler) throws Exception {
 
         if(request.getRequestURL().toString().contains("/legacy")){
+
             response.setStatus(HttpServletResponse.SC_GONE);
             return false;
+
         } else {
+
             return true;
+
         }
 
     }
