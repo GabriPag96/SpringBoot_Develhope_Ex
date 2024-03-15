@@ -1,7 +1,6 @@
+environment: production
 server:
   port: 4000
----
-environment: production
 spring:
   config:
     activate:
@@ -11,6 +10,8 @@ application:
   welcomeMsg: Hello from Test
 ---
 environment: testing
+server:
+  port: 5000
 spring:
   config:
     activate:
