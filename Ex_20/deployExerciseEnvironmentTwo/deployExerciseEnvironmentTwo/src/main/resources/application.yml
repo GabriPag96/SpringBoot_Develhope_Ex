@@ -1,13 +1,17 @@
+environment: default
+server:
+  port: 3050
+---
 environment: production
 server:
   port: 4000
 spring:
   config:
     activate:
-      on-profile: test
+      on-profile: prod
 name: prod-YAML
 application:
-  welcomeMsg: Hello from Test
+  welcomeMsg: Hello from Prod
 ---
 environment: testing
 server:
@@ -15,7 +19,7 @@ server:
 spring:
   config:
     activate:
-      on-profile: prod
+      on-profile: test
 name: test-YAML
 application:
-  welcomeMsg: Hello from Prod
+  welcomeMsg: Hello from Test
