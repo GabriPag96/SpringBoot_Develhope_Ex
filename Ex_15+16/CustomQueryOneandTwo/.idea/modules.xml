@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CustomQuerysOneandTwo.iml" filepath="$PROJECT_DIR$/.idea/CustomQuerysOneandTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CustomQueryOneandTwo.iml" filepath="$PROJECT_DIR$/.idea/CustomQueryOneandTwo.iml" />
     </modules>
   </component>
 </project>

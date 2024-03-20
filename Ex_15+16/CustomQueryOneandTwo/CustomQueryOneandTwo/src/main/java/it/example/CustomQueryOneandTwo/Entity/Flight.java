@@ -1,18 +1,15 @@
-package it.example.CustomQuerysOneandTwo.Entity;
+package it.example.CustomQueryOneandTwo.Entity;
 
-import it.example.CustomQuerysOneandTwo.Enum.FlightEnum;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 @Entity
 @Table
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-@ToString
+@NoArgsConstructor
 public class Flight {
 
     @Id
@@ -25,5 +22,6 @@ public class Flight {
 
     private String toAirport;
 
-    private FlightEnum status;
+    private StatusType status;
+
 }
