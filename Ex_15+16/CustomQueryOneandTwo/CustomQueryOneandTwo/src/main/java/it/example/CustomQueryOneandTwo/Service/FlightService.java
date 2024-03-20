@@ -17,6 +17,7 @@ public class FlightService {
     private FlightRepository flightRepository;
 
     public List<Flight> addFlights(){
+
         List<Flight> newListFlight = new ArrayList<>();
 
         for(int i= 1 ; i<51 ; i++){
@@ -39,6 +40,7 @@ public class FlightService {
         if(input != null){
 
             for(int i= 1 ; i<=input ; i++){
+
                 Flight flight = new Flight();
                 flight.setDescription(getRandomString());
                 flight.setToAirport(getRandomString());
@@ -50,6 +52,7 @@ public class FlightService {
         }else {
 
             for(int i= 1 ; i<=100 ; i++){
+
                 Flight flight = new Flight();
                 flight.setDescription(getRandomString());
                 flight.setToAirport(getRandomString());
@@ -76,7 +79,10 @@ public class FlightService {
 
         Random random = new Random();
 
-        Integer value = random.ints(1,4).limit(1).findFirst().getAsInt();
+        Integer value = random.ints(1,4)
+                .limit(1)
+                .findFirst()
+                .getAsInt();
 
         StatusType getStatusType = null;
 
